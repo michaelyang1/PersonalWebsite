@@ -1,0 +1,79 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN">
+<html>
+  <head>
+    <title>Portfolio</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1">
+    <link rel="stylesheet" type="text/css" href="style.css"> 
+  </head>
+
+  <body>
+    <ul>
+      <li><a href="index.html">Home</a></li>
+      <li><a href="portfolio.html">Portfolio</a></li>
+      <li><a href="qualifications.html">Qualifications</a></li>
+      <li><a href="services.html">Services</a></li>
+      <label class="switch" style="float:right; margin-right: 10px;">
+        <input type="checkbox" onclick="change()" id="darkModeToggle">
+        <span class="slider round"></span>
+      </label>
+      <li style="float:right"><a href="">Dark mode</a></li>
+    </ul>
+
+    <img src="mnist.png" alt="Mnist database" align="right">
+
+    <div class="portfolio">
+      <h1>Technical Projects</h1>
+      <h2> Neural Network Library</h2>
+      <p><i>Spring 2020 at College Station - (<a href="https://github.com/michaelyang1/ConvolutionalNeuralNetwork">CNN Link</a>)
+       (<a href="https://github.com/michaelyang1/FeedForwardNeuralNetwork">FNN Link</a>)
+      </i><br><br>
+        I built a convolutional and feed forward neural network libary using Python <br>
+        to classify RGB images with customizable layered network architectures. The library <br>
+        was implemented via backpropagation algorithms and contains support for calibrating deep <br>
+        learning hyperparemeters, regularizers, and optimizers. The convolutional neural network <br> 
+        built from this library achieved a greater than 99% validation accuracy on the benchmark <br>
+        70,000 MNIST handwritten images database. </p>
+      
+      <h2> Teachable App</h2>
+      <p><i>Spring 2021 at Dallas - (<a href="https://github.com/michaelyang1/Teachable">Teachable Link</a>)
+      </i><br><br>
+        I made a peer to peer messenger application for students and teachers to directly interact <br>
+        with each other over coursework and academic matters in Android Studios. I implemented front-end <br>
+        tasks using XML to generate the application UI and Kotlin to interact with the UI elements for in-app <br>
+        functionalities. The back-end consisted of the Google Firebase API to store and retrieve user information <br> 
+        in cloud hosted JSON trees. </p>
+
+      <img src="figure.png" alt="Gaussian AUCs" align="right" style="width:500px;height:400px;">
+
+      <h2> Siamese Based Metric Learning Model </h2>
+      <p><i>Summer 2021 at Dallas - (<a href="https://ieeexplore.ieee.org/document/9508528?fbclid=IwAR0osr2fGpNNvqM6_FblG8VQWKSl4rgCvOkzioJe08eBjq2Un49Nth5fPQE">Publication Link</a>)
+      </i><br><br>
+        As an undergraduate machine learning researcher under <a href="https://engineering.tamu.edu/cse/profiles/chaspari-theodora.html">Dr. Theodora Chaspari</a> in the</a> <a href="https://hubbs.engr.tamu.edu/people-2/"> 
+        Texas A&M Human Bio-Behavioral <br> Signals AI Lab</a>, I had the fortune to publish an academic paper on using siamese based metric learning to classify <br>
+        meal macronutrient content from postprandial glucose signals. Our metric learning approach performed better than  <br>
+        previous models, benefitting nutrition measurement and diabetes management in particular. Our paper was accepted into  <br> 
+        the prestigious IEEE Biomedical and Health Informatics conference in July 2021, where I had the honor to present my paper <br>
+        in front of distinguished faculty and researchers around the world.</p>
+
+      <h2> The Social App </h2>
+      <p><i>Fall 2021 at College Station - (<a href="https://github.com/michaelyang1/HowdyHack2021">TheSocialApp Link</a>)
+      </i><br><br>
+        For HowdyHack 2021, our team created a mobile Android application for young people to conviniently find <br>
+        and create social events. The Social App serves as an effective alternative to using social media or direct <br>
+        messaging to attend/organize events, which can be cumbersome and limited in reach. In addition to incorporating <br>
+        a social events feed, we also utilized the <a href="https://developer.android.com/training/maps">Google Map API</a> to create a map view for the user to easily see all the nearby  <br> 
+        events. The app is currently still under construction. </p>
+
+      <h1>Relevant Links</h1>
+      <p>Github page: <a href="https://github.com/michaelyang1">https://github.com/michaelyang1</a></p>
+      <p>Linkedin: <a href="https://www.linkedin.com/in/michaelyang1/">https://www.linkedin.com/in/michaelyang1/</a></p>
+      <p>IEEE profile: <a href="https://ieeexplore.ieee.org/author/37088933434">https://ieeexplore.ieee.org/author/37088933434</a></p>
+    </div>
+
+    <script type="text/javascript" src="toggle.js"></script>
+    
+    <img src="teachable.png" alt="Teachable App page" align="right" style="width:250px;height:500px;margin-right: 140px;">
+    <img src="theSocialApp.png" alt="TheSocialApp page" style="width:500px;height:400px;">
+
+  </body>
+</html>
